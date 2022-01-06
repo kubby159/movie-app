@@ -1,0 +1,18 @@
+.movie-container {
+  margin: 24px 0;
+  padding: 12px;
+  border: 1px solid #4bb6dc;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px 5px #4bb6dc;
+  text-align: center;
+  font-family: "Nanum Gothic", sans-serif;
+
+  .star {
+    font-weight: 700;
+  }
+  .movie-img {
+    margin-top: 8px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+  }
+}

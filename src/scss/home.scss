@@ -1,0 +1,30 @@
+.home-container {
+  width: 912px;
+
+  margin: 12px;
+
+  .home-layout {
+    width: 80%;
+    margin: auto;
+    padding: 14px;
+
+    .home-nav {
+      height: 100%;
+      text-align: center;
+      color: #4bb6dc;
+
+      .home-main-title {
+        font-family: "Amatic SC", cursive;
+        font-weight: bold;
+        font-size: 64px;
+      }
+    }
+    .home-info {
+      width: 100%;
+      text-align: center;
+      .loading {
+        margin-top: 36px;
+      }
+    }
+  }
+}
