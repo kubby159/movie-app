@@ -1,0 +1,55 @@
+.detail-container {
+  width: 912px;
+  margin: 0 auto;
+  padding: 8px;
+
+  .detail-title {
+    text-align: center;
+    font-family: "Amatic SC", cursive;
+    font-size: 64px;
+    color: #757496;
+  }
+  .loading {
+    text-align: center;
+  }
+  .detail-inner {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #757496;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 5px #757496;
+    font-family: "Nanum Gothic", sans-serif;
+
+    .detail-movie {
+      .detail-layout {
+        display: flex;
+        justify-content: space-around;
+        .detail-movie-img {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            border: 1px solid #4bb6dc;
+            border-radius: 12px;
+          }
+        }
+        .detail-movie-info {
+          width: 50%;
+          height: 100%;
+          color: #98bbe8;
+          .detail-movie-title {
+            color: #949fff;
+          }
+          .detail-summary {
+            font-weight: 700;
+            color: #949fff;
+          }
+          .detail-description {
+            line-height: 1.6;
+            color: #98bbe8;
+          }
+        }
+      }
+    }
+  }
+}

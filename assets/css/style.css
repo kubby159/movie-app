@@ -4,21 +4,53 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  border-bottom: 2px solid #4bb6dc;
+  color: #4bb6dc;
+}
+
 .home-container {
   width: 912px;
-  border: 2px solid #000;
-  margin: 12px;
+  margin: 0 auto;
 }
 .home-container .home-layout {
   width: 80%;
   margin: auto;
   padding: 14px;
-  border: 1px solid #000;
 }
 .home-container .home-layout .home-nav {
+  height: 100%;
   text-align: center;
-  border-bottom: 1px solid #000;
+  color: #4bb6dc;
+}
+.home-container .home-layout .home-nav .home-main-title {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  font-size: 64px;
 }
 .home-container .home-layout .home-info {
   width: 100%;
+  text-align: center;
+}
+.home-container .home-layout .home-info .loading {
+  margin-top: 36px;
+}
+
+.movie-container {
+  margin: 24px 0;
+  padding: 12px;
+  border: 1px solid #4bb6dc;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px 5px #4bb6dc;
+  text-align: center;
+  font-family: "Nanum Gothic", sans-serif;
+}
+.movie-container .star {
+  font-weight: 700;
+}
+.movie-container .movie-img {
+  margin-top: 8px;
+  border: 1px solid transparent;
+  border-radius: 12px;
 }
